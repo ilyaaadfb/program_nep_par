@@ -159,7 +159,7 @@ class MainWindow(QMainWindow, Ui_Function_approximation):
         self.view.setColumnWidth(2, 300)
         pd.options.display.max_colwidth = 10000
 
-    # название и аватарка программы
+    # название и аватарка программы gg
     def NameProgramm(self):
         self.setWindowTitle('Function approximation')
         self.setWindowIcon(QIcon('graph_ava.png'))
