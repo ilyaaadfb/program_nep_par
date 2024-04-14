@@ -157,7 +157,7 @@ class MainWindow(QMainWindow, Ui_Function_approximation):
         self.view.setColumnWidth(0, 40)
         self.view.setColumnWidth(1, 40)
         self.view.setColumnWidth(2, 300)
-        pd.options.display.max_colwidth = 255
+        pd.options.display.max_colwidth = 10000
 
     # название и аватарка программы
     def NameProgramm(self):
